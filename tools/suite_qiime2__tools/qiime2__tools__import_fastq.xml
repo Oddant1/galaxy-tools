@@ -624,7 +624,7 @@ for:
         <requirement type="package" version="5.3.0">gawk</requirement>
         <requirement type="package" version="2.0">sortmerna</requirement>
     </requirements>
-    <command>q2galaxy run tools import_fastq '$inputs'</command>
+    <command>q2galaxy run tools import-fastq '$inputs'</command>
     <configfiles>
         <inputs name="inputs" data_style="staging_path_and_source_path"/>
     </configfiles>
